@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Dashboard from "./components/Dashboard";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
-    <div className="App">
-     <h1>Dashboard</h1>
+    <div>
+      <Sidebar />
+      <Dashboard />
     </div>
   );
 }
