@@ -1,12 +1,10 @@
 import "./App.css";
-import Dashboard from "./components/Dashboard";
-import Sidebar from "./components/Sidebar";
+import MainContainer from "./components/MainContainer";
 
 function App() {
   return (
     <div>
-      <Sidebar />
-      <Dashboard />
+      <MainContainer />
     </div>
   );
 }
