@@ -1,7 +1,6 @@
 import React from "react";
 import { FaSearch } from "react-icons/fa";
 import MonetizationOnOutlinedIcon from "@mui/icons-material/MonetizationOnOutlined";
-import EarningChart from "./EarningChart";
 
 const Dashboard = () => {
   const stats = [
@@ -65,7 +64,7 @@ const Dashboard = () => {
       </div>
 
       <div>
-        <EarningChart />
+  
       </div>
     </div>
   );
